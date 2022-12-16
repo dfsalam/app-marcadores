@@ -1,0 +1,28 @@
+###
+GET http://localhost:9000/api/books HTTP/1.1
+
+###
+POST http://localhost:9000/api/books HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Mi alma se la dejo al diablo2",
+    "autor":"German Castro2",
+    "editorial":"Planeta2"
+
+}
+
+###
+DELETE http://localhost:9000/api/books/idbooks/1 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/books/idbooks/3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name":"Mi alma se la dejo al diablo4",
+    "autor":"German Castro4",
+    "editorial":"Planeta4"
+
+}
+
