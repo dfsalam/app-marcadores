@@ -4,7 +4,9 @@ import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 
-const urlEventos = 'http://localhost:9000/api/marcadores/2'
+//const urlEventos = 'http://localhost:9000/api/marcadores/2'
+
+const urlEventos = 'http://132.145.170.225:9000/api/marcadores/2'
 
 
 

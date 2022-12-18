@@ -4,6 +4,7 @@
 /node_modules
 /backend-deportes/node_modules
 /.pnp
+/claves ssh
 .pnp.js
 
 # testing
