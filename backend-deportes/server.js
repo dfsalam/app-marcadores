@@ -9,10 +9,10 @@ app.use(cors())
 app.set('port',9000);
 
 const dbOptions={
-    host:'localhost',
+    host:'132.145.170.225',
     port:'3306',
-    user:'claseNode',
-    password:'12345678',
+    user:'root',
+    password:'admin',
     database:'mdeportivos'
 }
 //middelwares

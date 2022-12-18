@@ -8,7 +8,9 @@ import { faEdit, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import { Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
 
 
-const url = 'http://localhost:9000/api/marcadores'
+//const url = 'http://localhost:9000/api/marcadores'
+
+const url = 'http://132.145.170.225:9000/api/marcadores'
 const field_id = '/mar_id/'
 
 class PageEventos extends Component{
